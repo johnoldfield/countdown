@@ -1,0 +1,117 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>TimeCircles</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="inc/TimeCircles.js"></script>
+		<link href="inc/TimeCircles.css" rel="stylesheet">
+<style>
+body {background-color:black; color: white; margin:0 auto;
+  padding:0;}
+h1   {text-align: center; font-family: 'Century Gothic', Arial;
+        font-size: 350%;}
+p    {color:green;}
+</style>
+		
+    </head>
+    <body>
+        <div class="container">
+            <table width="100%">
+<!--                  <tr>
+                    <td>
+                        <h1>CUTOVER BEGINS</h1>
+                        <div id="DateCountdown1" data-date="2016-05-20 23:59:00" style="height: 30%;width: 75%; margin:0 auto;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h1>TECHNICAL PILOT : 1 Angel Square : Colleagues only</h1>
+                        <div id="DateCountdown2" data-date="2016-05-24 23:59:00" style="height: 30%;width: 75%;margin:0 auto;"></div>
+                    </td>
+                </tr> -->
+                <tr>
+                    <td>
+                        <h1>End to End KRG UAT testing begins in</h1>
+                        <div id="DateCountdown1" data-date="2019-06-24 23:59:00" style="height: 30%;width: 75%;margin:0 auto;"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h1>Production signoff ready for Pilot rollout</h1>
+                        <div id="DateCountdown2" data-date="2019-08-18 23:59:00" style="height: 30%;width: 75%;margin:0 auto;"></div>
+                    </td>
+                </tr>
+            </table>
+
+
+
+          <script type="text/javascript">
+		$("#DateCountdown1").TimeCircles({
+    "animation": "smooth",
+    "bg_width": 1.2,
+    "fg_width": 0.1,
+    "circle_bg_color": "#60686F",
+    "use_background": true,
+    "time": {
+        "Days": {
+            "text": "Days",
+            "color": "#FFCC66",
+            "show": true
+        },
+        "Hours": {
+            "text": "Hours",
+            "color": "#99CCFF",
+            "show": true
+        },
+        "Minutes": {
+            "text": "Minutes",
+            "color": "#BBFFBB",
+            "show": true
+        },
+        "Seconds": {
+            "text": "Seconds",
+            "color": "#FF9999",
+            "show": true
+        }
+    }
+});
+		</script>
+
+		 <script type="text/javascript">
+		$("#DateCountdown2").TimeCircles({
+    "animation": "smooth",
+    "bg_width": 1.2,
+    "fg_width": 0.1,
+    "circle_bg_color": "#60686F",
+    "use_background": true,
+    "time": {
+        "Days": {
+            "text": "Days",
+            "color": "#FFCC66",
+            "show": true
+        },
+        "Hours": {
+            "text": "Hours",
+            "color": "#99CCFF",
+            "show": true
+        },
+        "Minutes": {
+            "text": "Minutes",
+            "color": "#BBFFBB",
+            "show": true
+        },
+        "Seconds": {
+            "text": "Seconds",
+            "color": "#FF9999",
+            "show": true
+        }
+    }
+});
+		</script>
+		          
+        </div>
+    </body>
+</html>
